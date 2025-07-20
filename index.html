@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>welcome page</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-transform: capitalize;
+                background: linear-gradient(45deg, red, blue);
+                height: 100vh;
+                text-align: center;
+                color: white;
+            }
+            h1 {
+                padding: 50px;
+                color: white;
+            }
+            label {
+                margin-right: 20px;
+                font-size: 20px;
+            }
+            select {
+                padding: 5px;
+                border-radius: 7px;
+                font-size: 18px;
+                outline: none;
+            }
+            button {
+                margin-top: 20px;
+                width: 100px;
+                padding: 10px;
+                border-radius: 10px;
+                outline: none;
+                font-size: 18px;
+                background-color: transparent;
+                border: none;
+                border: 1px solid white;
+                cursor: pointer;
+                color: white;
+                /* transition: all 0.5s; */
+            }
+            button:hover {
+                background: linear-gradient(45deg, red, blue);;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>welcome to the main page to start your quiz </h1>
+        <label for="choose">choose your test</label>
+        <select name="choose" id="choose">
+            <option value="null"></option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JS</option>
+        </select> <br>
+
+        <button onclick="startQuiz()">start quiz</button>
+
+
+        <script>
+            function startQuiz() {
+                const selected = document.getElementById("choose").value;
+                if (selected === "null") {
+                    alert("You must choose to start your quiz");
+                } else {
+                    localStorage.setItem("quizChoose", selected); // Save value to localStorage
+                    window.location.href = "quiz.html"; // Redirect to quiz page
+                }
+            }
+
+
+        </script>
+    </body>
+</html>

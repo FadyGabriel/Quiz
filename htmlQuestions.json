@@ -1,0 +1,114 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "What does HTML stand for?",
+            "options": [
+            "Hyper Text Markup Language",
+            "Home Tool Markup Language",
+            "Hyperlinks and Text Markup Language",
+            "Hyperlinking Text Management Language"
+        ],
+            "answer": "Hyper Text Markup Language"
+        },
+        {
+            "id": 2,
+            "question": "Which HTML tag is used to define an internal style sheet?",
+            "options": [
+            "<script>",
+            "<css>",
+            "<style>",
+            "<link>"
+        ],
+            "answer": "<style>"
+        },
+        {
+            "id": 3,
+            "question": "What is the correct HTML element for inserting a line break?",
+            "options": [
+            "<break>",
+            "<br>",
+            "<lb>",
+            "<line>"
+        ],
+            "answer": "<br>"
+        },
+        {
+            "id": 4,
+            "question": "Which tag is used to create a hyperlink in HTML?",
+            "options": [
+            "<a>",
+            "<link>",
+            "<href>",
+            "<hyperlink>"
+        ],
+            "answer": "<a>"
+        },
+        {
+            "id": 5,
+            "question": "How can you make a numbered list in HTML?",
+            "options": [
+            "<ol>",
+            "<ul>",
+            "<dl>",
+            "<list>"
+        ],
+            "answer": "<ol>"
+        },
+        {
+            "id": 6,
+            "question": "Which attribute is used to provide an alternative text for an image?",
+            "options": [
+            "src",
+            "alt",
+            "title",
+            "longdesc"
+        ],
+            "answer": "alt"
+        },
+        {
+            "id": 7,
+            "question": "What does the <head> element contain?",
+            "options": [
+            "Visible page content",
+            "Meta-information about the document",
+            "Footer content",
+            "Navigation links"
+        ],
+            "answer": "Meta-information about the document"
+        },
+        {
+            "id": 8,
+            "question": "Which HTML element is used to specify a footer for a document or section?",
+            "options": [
+            "<bottom>",
+            "<section-footer>",
+            "<footer>",
+            "<end>"
+        ],
+            "answer": "<footer>"
+        },
+        {
+            "id": 9,
+            "question": "How do you create a checkbox in HTML?",
+            "options": [
+            "<input type='checkbox'>",
+            "<checkbox>",
+            "<check>",
+            "<input checkbox>"
+        ],
+            "answer": "<input type='checkbox'>"
+        },
+        {
+            "id": 10,
+            "question": "Which of the following is the correct way to start an HTML document?",
+            "options": [
+            "<html>",
+            "<html lang='en'>",
+            "<!DOCTYPE html>",
+            "<head>"
+        ],
+            "answer": "<!DOCTYPE html>"
+        }
+    ]
+}

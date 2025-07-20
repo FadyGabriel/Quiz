@@ -1,0 +1,114 @@
+{
+    "questions": [
+        {
+          "id": 1,
+          "question": "What is JavaScript mainly used for?",
+          "options": [
+            "Structuring the page",
+            "Styling web pages",
+            "Adding interactivity to web pages",
+            "Defining page metadata"
+          ],
+          "answer": "Adding interactivity to web pages"
+      },
+    {
+      "id": 2,
+      "question": "Which keyword is used to declare a variable in JavaScript?",
+      "options": [
+        "var",
+        "int",
+        "let",
+        "Both var and let"
+      ],
+      "answer": "Both var and let"
+    },
+    {
+      "id": 3,
+      "question": "Which symbol is used for comments in JavaScript?",
+      "options": [
+        "//",
+        "#",
+        "<!-- -->",
+        "/* */"
+      ],
+      "answer": "//"
+    },
+    {
+      "id": 4,
+      "question": "How do you write 'Hello World' in an alert box?",
+      "options": [
+        "msgBox('Hello World');",
+        "alertBox('Hello World');",
+        "alert('Hello World');",
+        "msg('Hello World');"
+      ],
+      "answer": "alert('Hello World');"
+    },
+    {
+      "id": 5,
+      "question": "Which method adds a new element to the end of an array?",
+      "options": [
+        "push()",
+        "pop()",
+        "add()",
+        "insert()"
+      ],
+      "answer": "push()"
+    },
+    {
+      "id": 6,
+      "question": "What is the output of '2' + 2 in JavaScript?",
+      "options": [
+        "4",
+        "NaN",
+        "22",
+        "Error"
+      ],
+      "answer": "22"
+    },
+    {
+      "id": 7,
+      "question": "How do you define a function in JavaScript?",
+      "options": [
+        "function = myFunc()",
+        "define myFunc()",
+        "function myFunc()",
+        "create function myFunc()"
+      ],
+      "answer": "function myFunc()"
+    },
+    {
+      "id": 8,
+      "question": "Which object is the root of the DOM in a browser?",
+      "options": [
+        "window",
+        "document",
+        "body",
+        "html"
+      ],
+      "answer": "document"
+    },
+    {
+      "id": 9,
+      "question": "How do you write an if statement in JavaScript?",
+      "options": [
+        "if i == 5 then",
+        "if (i == 5)",
+        "if i = 5 then",
+        "if i = 5"
+      ],
+      "answer": "if (i == 5)"
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is a JavaScript data type?",
+      "options": [
+        "float",
+        "number",
+        "double",
+        "real"
+      ],
+      "answer": "number"
+    }
+    ]
+}

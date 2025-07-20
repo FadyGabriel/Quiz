@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does CSS stand for?",
+      "options": [
+        "Cascading Style Sheets",
+        "Colorful Style Sheets",
+        "Computer Style Sheets",
+        "Creative Style System"
+      ],
+      "answer": "Cascading Style Sheets"
+    },
+    {
+      "id": 2,
+      "question": "Which HTML tag is used to link an external CSS file?",
+      "options": [
+        "<style>",
+        "<link>",
+        "<css>",
+        "<script>"
+      ],
+      "answer": "<link>"
+    },
+    {
+      "id": 3,
+      "question": "Which property is used to change the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "answer": "background-color"
+    },
+    {
+      "id": 4,
+      "question": "How do you make text bold in CSS?",
+      "options": [
+        "font-weight: bold;",
+        "font: bold;",
+        "style: bold;",
+        "text-weight: bold;"
+      ],
+      "answer": "font-weight: bold;"
+    },
+    {
+      "id": 5,
+      "question": "Which CSS property controls the text size?",
+      "options": [
+        "font-style",
+        "text-size",
+        "font-size",
+        "text-style"
+      ],
+      "answer": "font-size"
+    },
+    {
+      "id": 6,
+      "question": "How do you select an element with id 'main' in CSS?",
+      "options": [
+        "#main",
+        ".main",
+        "main",
+        "*main"
+      ],
+      "answer": "#main"
+    },
+    {
+      "id": 7,
+      "question": "How do you select all <p> elements inside a <div>?",
+      "options": [
+        "div.p",
+        "div + p",
+        "div > p",
+        "div p"
+      ],
+      "answer": "div p"
+    },
+    {
+      "id": 8,
+      "question": "Which property is used to change the font of an element?",
+      "options": [
+        "text-style",
+        "font-style",
+        "font-family",
+        "font-type"
+      ],
+      "answer": "font-family"
+    },
+    {
+      "id": 9,
+      "question": "What is the default position value of an HTML element in CSS?",
+      "options": [
+        "fixed",
+        "relative",
+        "static",
+        "absolute"
+      ],
+      "answer": "static"
+    },
+    {
+      "id": 10,
+      "question": "Which CSS property is used to make a website responsive?",
+      "options": [
+        "media-queries",
+        "@media",
+        "responsive",
+        "screen"
+      ],
+      "answer": "@media"
+    }
+  ]
+}
